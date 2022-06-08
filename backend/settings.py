@@ -112,11 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Whitelisting React port
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
-    'http://localhost',
-    'http://task-manager-ki.herokuapp.com'
-]
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
